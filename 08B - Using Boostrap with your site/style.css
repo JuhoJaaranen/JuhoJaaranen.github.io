@@ -1,0 +1,30 @@
+.jumbotron {
+    margin-bottom: 0rem !important;
+}
+
+.featurette {
+    margin-bottom: 5em;
+}
+
+.nav {
+    font-size: x-large;
+}
+
+.card-body {
+    visibility: hidden;
+}
+
+.card {
+    border: 0px !important;
+    --bs-card-inner-border-radius: 0px !important;
+}
+
+@media (max-width: 767.98px) {
+    .card-body {
+      visibility: visible;
+    }
+  }
+
+img:hover + div.card-body {
+    visibility: visible;
+}
