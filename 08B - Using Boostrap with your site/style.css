@@ -28,3 +28,7 @@
 img:hover + div.card-body {
     visibility: visible;
 }
+
+a {
+    color: black !important;
+}
